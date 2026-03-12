@@ -1,0 +1,39 @@
+name: Build Plugin
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch: # allows manual trigger from GitHub UI
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Cache Gradle & IntelliJ SDK
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+
+      - name: Build Plugin
+        run: ./gradlew buildPlugin --no-daemon
+
+      - name: Upload Plugin ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: extra-toolwindow-colorful-icons
+          path: build/distributions/*.zip
+          if-no-files-found: error
