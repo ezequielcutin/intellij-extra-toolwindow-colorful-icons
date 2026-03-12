@@ -125,6 +125,11 @@ public class ExtraToolWindowIconsPatcher extends IconPathPatcher {
         icons.put("scroll_up.svg", "/extratci/icons/custom/scroll_up.svg");
         icons.put("toggleSoftWrap.svg", "/extratci/icons/custom/toggleSoftWrap.svg");
 
+        // Rider-specific icons
+        icons.put("toolWindowDotCover.svg", "/extratci/icons/custom/toolWindowDotCover.svg");
+        icons.put("toolWindowNuGet.svg", "/extratci/icons/custom/toolWindowNuGet.svg");
+        icons.put("toolWindowUnitTesting.svg", "/extratci/icons/custom/toolWindowUnitTesting.svg");
+
         return icons;
     }
 
