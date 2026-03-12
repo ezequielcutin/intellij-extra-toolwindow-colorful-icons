@@ -30,7 +30,7 @@ public class ExtraToolWindowIconsPatcher extends IconPathPatcher {
         icons.put("androidToolWindow.svg", "/extratci/icons/original/community/android/artwork/resources/icons/androidToolWindow.svg");
         icons.put("toolWindowWarning.svg", "/extratci/icons/original/community/android/artwork/resources/icons/toolwindows/toolWindowWarning.svg");
         icons.put("toolWindowBuild.svg", "/extratci/icons/original/community/platform/icons/src/toolwindows/toolWindowBuild.svg");
-        icons.put("toolWindowChanges.svg", "/extratci/icons/original/community/platform/icons/src/toolwindows/toolWindowChanges.svg");
+        icons.put("toolWindowChanges.svg", "/extratci/icons/custom/toolWindowChanges.svg");
         icons.put("toolWindowDebugger.svg", "/extratci/icons/original/community/platform/icons/src/toolwindows/toolWindowDebugger.svg");
         icons.put("toolWindowFavorites.svg", "/extratci/icons/original/community/platform/icons/src/toolwindows/toolWindowFavorites.svg");
         icons.put("toolWindowProfiler.svg", "/extratci/icons/original/community/platform/icons/src/toolwindows/toolWindowProfiler.svg");
@@ -129,6 +129,7 @@ public class ExtraToolWindowIconsPatcher extends IconPathPatcher {
         icons.put("toolWindowDotCover.svg", "/extratci/icons/custom/toolWindowDotCover.svg");
         icons.put("toolWindowNuGet.svg", "/extratci/icons/custom/toolWindowNuGet.svg");
         icons.put("toolWindowUnitTesting.svg", "/extratci/icons/custom/toolWindowUnitTesting.svg");
+        icons.put("toolWindowChat.svg", "/extratci/icons/custom/toolWindowChat.svg");
 
         return icons;
     }
