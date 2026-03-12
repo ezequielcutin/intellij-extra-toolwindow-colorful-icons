@@ -31,10 +31,10 @@ public class ExtraToolWindowIconsPatcher extends IconPathPatcher {
         icons.put("toolWindowWarning.svg", "/extratci/icons/original/community/android/artwork/resources/icons/toolwindows/toolWindowWarning.svg");
         icons.put("toolWindowBuild.svg", "/extratci/icons/original/community/platform/icons/src/toolwindows/toolWindowBuild.svg");
         icons.put("toolWindowChanges.svg", "/extratci/icons/custom/toolWindowChanges.svg");
-        icons.put("toolWindowDebugger.svg", "/extratci/icons/original/community/platform/icons/src/toolwindows/toolWindowDebugger.svg");
+        icons.put("toolWindowDebugger.svg", "/extratci/icons/custom/toolWindowDebugger.svg");
         icons.put("toolWindowFavorites.svg", "/extratci/icons/original/community/platform/icons/src/toolwindows/toolWindowFavorites.svg");
         icons.put("toolWindowProfiler.svg", "/extratci/icons/original/community/platform/icons/src/toolwindows/toolWindowProfiler.svg");
-        icons.put("toolWindowRun.svg", "/extratci/icons/original/community/platform/icons/src/toolwindows/toolWindowRun.svg");
+        icons.put("toolWindowRun.svg", "/extratci/icons/custom/toolWindowRun.svg");
         icons.put("toolWindowStructure.svg", "/extratci/icons/original/community/platform/icons/src/toolwindows/toolWindowStructure.svg");
         icons.put("serversToolWindow.svg", "/extratci/icons/original/community/platform/remote-servers/impl/resources/icons/serversToolWindow.svg");
         icons.put("griffonToolWindow.svg", "/extratci/icons/original/community/plugins/groovy/groovy-psi/resources/icons/griffon/griffonToolWindow.svg");
