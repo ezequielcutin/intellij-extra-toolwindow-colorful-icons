@@ -29,7 +29,7 @@ public class ExtraToolWindowIconsPatcher extends IconPathPatcher {
         icons.put("toolWindowProject_AS.svg", "/extratci/icons/original/community/android/adt-branding/src/artwork/toolWindowProject_AS.svg");
         icons.put("androidToolWindow.svg", "/extratci/icons/original/community/android/artwork/resources/icons/androidToolWindow.svg");
         icons.put("toolWindowWarning.svg", "/extratci/icons/original/community/android/artwork/resources/icons/toolwindows/toolWindowWarning.svg");
-        icons.put("toolWindowBuild.svg", "/extratci/icons/original/community/platform/icons/src/toolwindows/toolWindowBuild.svg");
+        icons.put("toolWindowBuild.svg", "/extratci/icons/custom/toolWindowBuild.svg");
         icons.put("toolWindowChanges.svg", "/extratci/icons/custom/toolWindowChanges.svg");
         icons.put("toolWindowDebugger.svg", "/extratci/icons/custom/toolWindowDebugger.svg");
         icons.put("toolWindowFavorites.svg", "/extratci/icons/original/community/platform/icons/src/toolwindows/toolWindowFavorites.svg");
